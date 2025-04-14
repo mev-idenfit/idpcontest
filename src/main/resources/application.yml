@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          alpha-test:
+            assertingparty:
+              metadata-uri: https://dev-api.testing.idenfit.com/saml/metadata
