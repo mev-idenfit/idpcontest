@@ -5,6 +5,6 @@ spring:
     saml2:
       relyingparty:
         registration:
-          alpha-test:
+          idenfit:
             assertingparty:
               metadata-uri: https://dev-api.testing.idenfit.com/saml/metadata
